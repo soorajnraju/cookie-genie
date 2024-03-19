@@ -1,11 +1,13 @@
 {
   "name": "cookie-genie",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A lightweight library for managing cookies in JavaScript or TypeScript projects.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/cjs/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc --project tsconfig.cjs.json && tsc --project tsconfig.esm.json",
     "prepublish": "npm run build"
