@@ -1,0 +1,28 @@
+{
+  "name": "cookie-genie",
+  "version": "1.0.3",
+  "description": "A lightweight library for managing cookies in JavaScript or TypeScript projects.",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/cjs/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc --project tsconfig.cjs.json && tsc --project tsconfig.esm.json",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "cookie",
+    "browser",
+    "typescript"
+  ],
+  "author": "Sooraj N Raju",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soorajnraju/cookie-genie.git"
+  },
+  "bugs": {
+    "url": "https://github.com/soorajnraju/cookie-genie/issues"
+  },
+  "homepage": "https://github.com/soorajnraju/cookie-genie"
+}
