@@ -2,6 +2,8 @@
 
 Cookie Genie is a lightweight library for managing cookies in JavaScript or TypeScript projects. It provides methods to get and set cookies with optional parameters such as expiration date, path, domain, and security.
 
+This pacakge is a revamped version of original [cookie-cutter](https://www.npmjs.com/package/cookie-cutter) package.
+
 # Installation
 
 You can install Cookie Genie via npm or yarn:
@@ -66,6 +68,4 @@ Contributions are welcome! Please feel free to open issues or submit pull reques
 
 # License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Inspired from https://www.npmjs.com/package/cookie-cutter
+This project is licensed under the MIT [License](LICENSE) - see the LICENSE file for details.
