@@ -1,20 +1,29 @@
 {
   "name": "cookie-genie",
-  "version": "1.0.4",
-  "description": "A lightweight library for managing cookies in JavaScript or TypeScript projects.",
+  "version": "1.0.5",
+  "description": "A lightweight library for managing cookies in browser using JavaScript or TypeScript",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/cjs/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/cjs/index.js",
+      "import": "./dist/ems/index.js"
+    }
+  },
   "files": [
     "dist"
   ],
   "scripts": {
     "build": "tsc --project tsconfig.cjs.json && tsc --project tsconfig.esm.json",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "publish": "npm publish"
   },
   "keywords": [
     "cookie",
+    "cookie-cutter",
     "browser",
+    "browserify",
     "typescript"
   ],
   "author": "Sooraj N Raju",
