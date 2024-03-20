@@ -1,0 +1,19 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "browserify main.js -o bundle.js && serve"
+  },
+  "author": "Sooraj N Raju",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-genie": "^1.0.4"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "serve": "^14.2.1"
+  }
+}
