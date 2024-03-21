@@ -16,8 +16,7 @@
   ],
   "scripts": {
     "build": "tsc --project tsconfig.cjs.json && tsc --project tsconfig.esm.json",
-    "prepublish": "npm run build",
-    "publish": "npm publish"
+    "prepublish": "npm run build"
   },
   "keywords": [
     "cookie",
@@ -30,7 +29,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/soorajnraju/cookie-genie.git"
+    "url": "git+https://github.com/soorajnraju/cookie-genie.git"
   },
   "bugs": {
     "url": "https://github.com/soorajnraju/cookie-genie/issues"
